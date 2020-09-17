@@ -1,6 +1,6 @@
 {
   "name": "@openintegrationhub/twitter-connector",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "OIH Connector for Twitter",
   "homepage": "https://openintegrationhub.com/",
   "author": {
@@ -26,8 +26,7 @@
     "npm": ">=5.4"
   },
   "dependencies": {
-    "@openintegrationhub/ferryman": "^1.1.2",
-    "jsonata": "^1.8.3",
+    "@openintegrationhub/ferryman": "^1.1.4",
     "request": "^2.88.0",
     "request-promise": "4.1.1",
     "uuid": "^8.2.0"
