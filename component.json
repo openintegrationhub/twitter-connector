@@ -15,13 +15,10 @@
   },
   "triggers": {
     "getFriendsAndFollowers": {
-      "title": "Fetch new and updated persons(getPersons - Polling)",
-      "description": "Get Snazzy Contacts persons which have recently been modified or created",
+      "title": "Fetch friends and followers",
+      "description": "Get all friends and followers of a supplied account name, if public",
       "type": "polling",
-      "main": "./lib/triggers/getPersonsPolling.js",
-      "metadata": {
-        "out": "./lib/schemas/getPersons.out.json"
-      }
+      "main": "./lib/triggers/getFriendsAndFollowers.js",
     }
   }
 }

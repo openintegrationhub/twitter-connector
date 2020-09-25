@@ -1,5 +1,5 @@
 FROM node:10-alpine
-LABEL NAME="snazzy-contacts-adapter"
+LABEL NAME="Twitter-connector"
 LABEL MAINTAINER Sven Hoeffler "shoeffler@wice.de"
 LABEL SUMMARY="This image is used to start the Twitter connector for OIH"
 
